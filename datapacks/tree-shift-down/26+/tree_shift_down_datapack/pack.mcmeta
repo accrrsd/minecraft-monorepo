@@ -1,6 +1,6 @@
 {
   "pack": {
-    "min_format": 121,
+    "min_format": 101,
     "max_format": 121,
     "description": "Tree Shift-Down"
   }

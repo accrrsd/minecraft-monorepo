@@ -1,47 +1,41 @@
-# Tree Shift-Down — Minecraft Datapack (26.3)
+# Tree Shift-Down (Minecraft 26+)
 
-Ультра-минималистичный и надежный датапак для естественной рубки деревьев в режиме **Shift-Down** для **Minecraft 26.3**. 
-
-Датапак содержит **только саму механику рубки дерева** без каких-либо сторонних систем, меню, конфигов и внешних тегов, что гарантирует 100% стабильность и совместимость.
+A lightweight and reliable Minecraft datapack that implements a natural **shift-down** tree harvesting mechanic. When you chop a log, the highest connected log shifts down into its place, allowing you to harvest the entire tree without towering up.
 
 ---
 
-## 🪵 Как работает механика
+## Features
 
-1. **Игрок ломает блок дерева** (например, нижний блок ствола).
-2. Датапак моментально определяет точку сломанного блока через событие использования топора (`minecraft.used:minecraft.*_axe`) и выпавший предмет (`item` с `Age: 0s`).
-3. Запускается алгоритм поиска верхнего соединённого блока древесины (`#minecraft:logs`) по стволу и веткам.
-4. Верхний блок дерева плавно перемещается (`clone replace move`) вниз на место срубленного блока.
-5. Игрок продолжает рубить дерево на уровне глаз, пока все соединённые брёвна не спустятся вниз.
-
----
-
-## 🌲 Поддерживаемые деревья и топоры
-
-* **Деревья:** Все деревья, зарегистрированные в стандартном ванильном теге `#minecraft:logs` (включая новое дерево Poplar из обновления 26.3 Wilderness Bound, а также незерские грибы).
-* **Топоры:** Деревянный, каменный, железный, золотой, алмазный и незеритовый.
+- **Shift-Down Logging:** Logs travel down branch-by-branch as you chop.
+- **Building Protection:** Shift is required by default (`Sneak` mode). Chopping while standing breaks only a single block normally.
+- **Customizable Modes:** Supports Sneak-only or Always-active logging per player.
+- **Multi-Language Support:** English, Russian, Spanish, Chinese, German, and French.
+- **Wide Compatibility:** Works with all vanilla axes and trees registered under `#minecraft:logs` (including Poplar and Nether fungi).
 
 ---
 
-## 🛡️ Защита построек (Проверка листвы)
+## Configuration (`config.mcfunction`)
 
-Механика активируется **только если у дерева есть листва** (`#minecraft:leaves` или блоки незерских грибов). Если вы ломаете деревянные бревна в доме или постройке, где рядом нет листвы, дерево **не** сдвигается и постройка остается нетронутой.
+Server defaults can be configured in `data/tree_shift_down/function/config.mcfunction`:
 
----
-
-## ⚙️ Команда включения / выключения
-
-Каждый игрок может индивидуально включить или выключить механику для себя:
-```
-/trigger tsd_toggle
-```
+| Parameter | Values | Default | Description |
+| :--- | :--- | :--- | :--- |
+| `#default_enabled` | `1` / `0` | `1` (On) | Datapack enabled state for new players |
+| `#default_mode` | `1` / `0` | `1` (Sneak) | `1` = Sneak (Hold Shift), `0` = Always (Standing) |
+| `#default_lang` | `1`–`6` | `1` (EN) | `1`: EN, `2`: RU, `3`: ES, `4`: ZH, `5`: DE, `6`: FR |
 
 ---
 
-## 📦 Сборка архива (.zip)
+## In-Game Player Commands
 
-```bash
-python3 build_zips.py tree-shift-down
-```
-Архив формируется по пути:
-`tree-shift-down/tree_shift_down_datapack.zip`
+Players can customize their own settings at any time without OP permissions:
+
+- `/trigger tsd_toggle` — Toggle mechanic on or off.
+- `/trigger tsd_mode` — Switch mode between **Sneak (Hold Shift)** and **Always (Standing)**.
+- `/trigger tsd_lang set <1-6>` — Set language (`1`: English, `2`: Russian, `3`: Spanish, `4`: Chinese, `5`: German, `6`: French).
+
+---
+
+## Installation
+
+Place `tree_shift_down_datapack.zip` into the `datapacks` folder of your Minecraft world or server and run `/reload`.
