@@ -1,0 +1,15 @@
+{
+  "pack": {
+    "description": "Leaving Heart Behind — Resourcepack",
+    "pack_format": 88,
+    "min_format": [
+      84,
+      0
+    ],
+    "max_format": [
+      97,
+      1
+    ]
+  },
+  "id": "leaving-heart-rp"
+}

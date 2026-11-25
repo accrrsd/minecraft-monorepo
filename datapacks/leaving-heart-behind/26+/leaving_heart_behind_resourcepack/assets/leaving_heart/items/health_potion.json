@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "leaving_heart:item/health_potion"
+  }
+}

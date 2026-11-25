@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:item_model": "leaving_heart:health_potion",
+        "minecraft:custom_data": {
+          "leaving_heart_item": "potion"
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.leaving_heart.obtain_potion.title"
+    },
+    "description": {
+      "translate": "advancements.leaving_heart.obtain_potion.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "has_potion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "leaving_heart_item": "potion"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

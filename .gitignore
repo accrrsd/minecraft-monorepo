@@ -1,0 +1,23 @@
+# Archives
+*.zip
+*.tar
+*.tar.gz
+
+# System & OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# References, Backups & In-dev scratchpads
+REFS/
+refs/
+backups/
+DEV/
+dev/
+
+# IDE
+.vscode/
+.idea/

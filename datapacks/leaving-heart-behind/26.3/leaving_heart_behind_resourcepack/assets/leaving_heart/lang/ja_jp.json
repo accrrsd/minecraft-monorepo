@@ -1,0 +1,14 @@
+{
+  "item.leaving_heart.health_potion": "ハート回復のポーション",
+  "item.leaving_heart.health_potion.lore1": "最大8 HP（ハート4個分）を回復",
+  "item.leaving_heart.health_potion.lore2": "ポーションの上限値まで有効！",
+  "item.leaving_heart.heart_shard": "ハートの欠片",
+  "item.leaving_heart.heart_shard.lore1": "永続的にハートの器を獲得",
+  "item.leaving_heart.heart_shard.lore2": "最大体力を増加させる！",
+  "advancements.leaving_heart.obtain_potion.title": "生命のエリクサー",
+  "advancements.leaving_heart.obtain_potion.description": "ハート回復のポーションを調合して失われたハートを取り戻す",
+  "advancements.leaving_heart.obtain_shard.title": "ハートの欠片",
+  "advancements.leaving_heart.obtain_shard.description": "古代の遺跡で希少な生命の結晶を見つける",
+  "advancements.leaving_heart.consume_shard.title": "巨人の心臓",
+  "advancements.leaving_heart.consume_shard.description": "ハートの欠片で10個の追加ハートを集め、最大体力を40 HP（ハート20個分）に増大させる"
+}

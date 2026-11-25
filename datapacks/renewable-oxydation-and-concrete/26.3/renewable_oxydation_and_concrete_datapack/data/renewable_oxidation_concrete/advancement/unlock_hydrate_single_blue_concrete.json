@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_concrete_powder",
+              "minecraft:water_bucket",
+              "minecraft:blue_concrete"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "renewable_oxidation_concrete:hydrate_single_blue_concrete"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_items",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "renewable_oxidation_concrete:hydrate_single_blue_concrete"
+    ]
+  }
+}

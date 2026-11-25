@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": [
+    "RER",
+    "CPC",
+    "TCT"
+  ],
+  "key": {
+    "P": [
+      {
+        "item": "minecraft:music_disc_11"
+      }
+    ],
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "C": {
+      "item": "minecraft:black_concrete"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "T": {
+      "item": "minecraft:ghast_tear"
+    }
+  },
+  "result": {
+    "id": "minecraft:music_disc_11",
+    "components": {
+      "minecraft:custom_model_data": 369002,
+      "minecraft:jukebox_playable": {
+        "song": "dd_discs_data:they_stare_back",
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    [
+      "minecraft:cyan_concrete_powder"
+    ],
+    [
+      "minecraft:water_bucket"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:cyan_concrete",
+    "count": 1
+  }
+}

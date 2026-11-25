@@ -1,0 +1,2 @@
+# Gives Health Restoration Potion (+12 HP / 6 hearts)
+give @s potion[item_model="leaving_heart:health_potion",custom_data={leaving_heart_item:"potion"},potion_contents={custom_color:16711680},rarity="rare",item_name={translate:"item.leaving_heart.health_potion"},lore=[{translate:"item.leaving_heart.health_potion.lore1",color:"gray"},{translate:"item.leaving_heart.health_potion.lore2",color:"dark_purple",italic:true}]] 1

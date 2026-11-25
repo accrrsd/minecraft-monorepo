@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EHE",
+    "SAS",
+    "RHR"
+  ],
+  "key": {
+    "E": "minecraft:fermented_spider_eye",
+    "H": "minecraft:honey_bottle",
+    "A": "minecraft:golden_apple",
+    "S": "minecraft:amethyst_shard",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "minecraft:potion",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "leaving_heart:health_potion",
+      "minecraft:custom_data": {
+        "leaving_heart_item": "potion"
+      },
+      "minecraft:rarity": "rare",
+      "minecraft:item_name": {
+        "translate": "item.leaving_heart.health_potion",
+        "fallback": "Heart Restoration Potion"
+      },
+      "minecraft:potion_contents": {
+        "custom_color": 16711680
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.leaving_heart.health_potion.lore1",
+          "fallback": "Restores up to 8 HP (4 hearts)",
+          "color": "gray"
+        },
+        {
+          "translate": "item.leaving_heart.health_potion.lore2",
+          "fallback": "Effective within potion ceiling limit!",
+          "color": "dark_purple",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "bbb",
+    "bXb",
+    "bbb"
+  ],
+  "key": {
+    "X": "minecraft:water_bucket",
+    "b": "minecraft:magenta_concrete_powder"
+  },
+  "result": {
+    "id": "minecraft:magenta_concrete",
+    "count": 8
+  }
+}

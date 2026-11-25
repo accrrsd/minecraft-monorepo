@@ -1,0 +1,14 @@
+{
+  "item.leaving_heart.health_potion": "生命恢复药水",
+  "item.leaving_heart.health_potion.lore1": "恢复至多 12 点生命值（6 颗心）",
+  "item.leaving_heart.health_potion.lore2": "受药水治疗上限限制！",
+  "item.leaving_heart.heart_shard": "心之碎片",
+  "item.leaving_heart.heart_shard.lore1": "永久赋予心之容器",
+  "item.leaving_heart.heart_shard.lore2": "提升生命上限！",
+  "advancements.leaving_heart.obtain_potion.title": "生命灵药",
+  "advancements.leaving_heart.obtain_potion.description": "调配一瓶生命恢复药水以治愈失去的心之容器",
+  "advancements.leaving_heart.obtain_shard.title": "心之碎片",
+  "advancements.leaving_heart.obtain_shard.description": "在远古遗迹中发掘罕见的生命水晶",
+  "advancements.leaving_heart.consume_shard.title": "泰坦之心",
+  "advancements.leaving_heart.consume_shard.description": "通过心之碎片收集 10 颗额外的心，将最大生命值提升至 40 点（20 颗心）"
+}

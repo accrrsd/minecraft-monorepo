@@ -1,0 +1,14 @@
+{
+  "item.leaving_heart.health_potion": "Poción de Restauración de Corazones",
+  "item.leaving_heart.health_potion.lore1": "Restaura hasta 8 PS (4 corazones)",
+  "item.leaving_heart.health_potion.lore2": "¡Efectivo dentro del límite de pociones!",
+  "item.leaving_heart.heart_shard": "Fragmento de Corazón",
+  "item.leaving_heart.heart_shard.lore1": "Otorga contenedores de corazón permanentes",
+  "item.leaving_heart.heart_shard.lore2": "¡Aumenta la salud máxima!",
+  "advancements.leaving_heart.obtain_potion.title": "Elixir de Vida",
+  "advancements.leaving_heart.obtain_potion.description": "Elabora una Poción de Restauración para recuperar contenedores de salud perdidos",
+  "advancements.leaving_heart.obtain_shard.title": "Fragmento de Corazón",
+  "advancements.leaving_heart.obtain_shard.description": "Descubre un raro cristal de vida oculto en estructuras antiguas",
+  "advancements.leaving_heart.consume_shard.title": "Corazón de Titán",
+  "advancements.leaving_heart.consume_shard.description": "Reúne 10 corazones adicionales con fragmentos, aumentando tu salud máxima a 40 PS (20 corazones)"
+}

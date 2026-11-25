@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:apple",
+      "components": {
+        "minecraft:item_model": "leaving_heart:heart_shard",
+        "minecraft:custom_data": {
+          "leaving_heart_item": "shard"
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.leaving_heart.obtain_shard.title"
+    },
+    "description": {
+      "translate": "advancements.leaving_heart.obtain_shard.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "has_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "leaving_heart_item": "shard"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "consume_shard": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:apple",
+            "minecraft:potion"
+          ],
+          "predicates": {
+            "minecraft:custom_data": {
+              "leaving_heart_item": "shard"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "leaving_heart:use_shard"
+  }
+}

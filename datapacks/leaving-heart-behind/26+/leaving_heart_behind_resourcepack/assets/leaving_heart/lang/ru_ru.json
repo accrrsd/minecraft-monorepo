@@ -1,0 +1,14 @@
+{
+  "item.leaving_heart.health_potion": "Зелье Восстановления Сердец",
+  "item.leaving_heart.health_potion.lore1": "Восстанавливает до 12 HP (6 сердец)",
+  "item.leaving_heart.health_potion.lore2": "Действует в пределах лимита зелий!",
+  "item.leaving_heart.heart_shard": "Осколок Сердца",
+  "item.leaving_heart.heart_shard.lore1": "Дарует сердца навсегда",
+  "item.leaving_heart.heart_shard.lore2": "Увеличивает максимальный лимит здоровья!",
+  "advancements.leaving_heart.obtain_potion.title": "Эликсир Жизни",
+  "advancements.leaving_heart.obtain_potion.description": "Сварите Зелье Восстановления Сердец, чтобы исцелить утраченные контейнеры",
+  "advancements.leaving_heart.obtain_shard.title": "Осколок Сердца",
+  "advancements.leaving_heart.obtain_shard.description": "Отыщите редкий кристалл жизни в сокровищницах древних цивилизаций",
+  "advancements.leaving_heart.consume_shard.title": "Сердце Титана",
+  "advancements.leaving_heart.consume_shard.description": "Соберите 10 дополнительных сердец, увеличив максимум здоровья до 40 HP (20 сердец)"
+}

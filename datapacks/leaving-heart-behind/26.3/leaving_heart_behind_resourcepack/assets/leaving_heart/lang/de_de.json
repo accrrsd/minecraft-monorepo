@@ -1,0 +1,14 @@
+{
+  "item.leaving_heart.health_potion": "Herzwiederherstellungstrank",
+  "item.leaving_heart.health_potion.lore1": "Stellt bis zu 8 LP wieder her (4 Herzen)",
+  "item.leaving_heart.health_potion.lore2": "Wirkt innerhalb des Tranklimits!",
+  "item.leaving_heart.heart_shard": "Herzsplitter",
+  "item.leaving_heart.heart_shard.lore1": "Verleiht dauerhaft Herzbehälter",
+  "item.leaving_heart.heart_shard.lore2": "Erhöht die maximale Lebensenergie!",
+  "advancements.leaving_heart.obtain_potion.title": "Lebenselixier",
+  "advancements.leaving_heart.obtain_potion.description": "Braue einen Herzwiederherstellungstrank, um verlorene Herzen zu regenerieren",
+  "advancements.leaving_heart.obtain_shard.title": "Herzsplitter",
+  "advancements.leaving_heart.obtain_shard.description": "Finde einen seltenen Lebenskristall in antiken Bauwerken",
+  "advancements.leaving_heart.consume_shard.title": "Herz eines Titanen",
+  "advancements.leaving_heart.consume_shard.description": "Sammle 10 zusätzliche Herzen mit Splittern und erhöhe deine maximale Gesundheit auf 40 LP (20 Herzen)"
+}

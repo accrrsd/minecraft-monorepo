@@ -1,0 +1,14 @@
+{
+  "item.leaving_heart.health_potion": "Heart Restoration Potion",
+  "item.leaving_heart.health_potion.lore1": "Restores up to 8 HP (4 hearts)",
+  "item.leaving_heart.health_potion.lore2": "Effective within potion ceiling limit!",
+  "item.leaving_heart.heart_shard": "Heart Shard",
+  "item.leaving_heart.heart_shard.lore1": "Permanently grants heart containers",
+  "item.leaving_heart.heart_shard.lore2": "Increases maximum health capacity!",
+  "advancements.leaving_heart.obtain_potion.title": "Elixir of Life",
+  "advancements.leaving_heart.obtain_potion.description": "Brew a Heart Restoration Potion to recover lost health containers",
+  "advancements.leaving_heart.obtain_shard.title": "Heart Shard",
+  "advancements.leaving_heart.obtain_shard.description": "Discover a rare life crystal hidden within ancient structures",
+  "advancements.leaving_heart.consume_shard.title": "Heart of a Titan",
+  "advancements.leaving_heart.consume_shard.description": "Gather 10 extra hearts using heart shards, expanding your maximum health to 40 HP (20 hearts)"
+}

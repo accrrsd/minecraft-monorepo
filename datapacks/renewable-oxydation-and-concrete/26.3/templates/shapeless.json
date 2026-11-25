@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "{{category}}",
+  "ingredients": [
+    [
+      "{{base_item}}"
+    ],
+    [
+      "{{catalyst_item}}"
+    ]
+  ],
+  "result": {
+    "id": "{{result_item}}",
+    "count": {{count}}
+  }
+}

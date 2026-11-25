@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    [
+      "minecraft:green_concrete_powder"
+    ],
+    [
+      "minecraft:water_bucket"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:green_concrete",
+    "count": 1
+  }
+}

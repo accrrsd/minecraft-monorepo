@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": "Speed Effect support for Ghasts & Happy Ghasts (Minecraft 26.3)",
+    "pack_format": 121,
+    "min_format": [121, 0],
+    "max_format": [121, 0]
+  }
+}

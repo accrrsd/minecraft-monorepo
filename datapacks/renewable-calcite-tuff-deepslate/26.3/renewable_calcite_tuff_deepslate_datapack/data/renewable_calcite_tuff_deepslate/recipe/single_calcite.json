@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    [
+      "minecraft:bone_block"
+    ],
+    [
+      "minecraft:water_bucket"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:calcite",
+    "count": 1
+  }
+}

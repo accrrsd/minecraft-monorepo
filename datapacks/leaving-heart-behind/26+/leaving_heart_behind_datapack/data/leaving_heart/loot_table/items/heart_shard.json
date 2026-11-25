@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "leaving_heart:heart_shard",
+                "minecraft:custom_data": {
+                  "leaving_heart_item": "shard"
+                },
+                "minecraft:rarity": "epic",
+                "minecraft:item_name": {
+                  "translate": "item.leaving_heart.heart_shard"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.leaving_heart.heart_shard.lore1",
+                    "color": "gold"
+                  },
+                  {
+                    "translate": "item.leaving_heart.heart_shard.lore2",
+                    "color": "yellow",
+                    "italic": true
+                  }
+                ],
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0.0,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "minecraft:entity.generic.eat",
+                  "has_consume_particles": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

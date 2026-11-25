@@ -1,0 +1,2 @@
+# Gives Heart Shard (Edible crystal shard)
+give @s apple[item_model="leaving_heart:heart_shard",custom_data={leaving_heart_item:"shard"},rarity="epic",food={nutrition:0,saturation:0.0f,can_always_eat:true},consumable={consume_seconds:1.6f,animation:"eat",sound:"minecraft:entity.generic.eat",has_consume_particles:true},item_name={translate:"item.leaving_heart.heart_shard"},lore=[{translate:"item.leaving_heart.heart_shard.lore1",color:"gold"},{translate:"item.leaving_heart.heart_shard.lore2",color:"yellow",italic:true}]] 1

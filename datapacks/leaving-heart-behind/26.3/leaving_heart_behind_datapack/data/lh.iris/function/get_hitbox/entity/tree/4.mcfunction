@@ -1,0 +1,10 @@
+execute if entity @s[type=minecraft:vex] run function lh.iris:get_hitbox/entity/shape_groups/vex
+execute if entity @s[type=minecraft:warden] run function lh.iris:get_hitbox/entity/shape_groups/warden
+execute if entity @s[type=minecraft:wither] run function lh.iris:get_hitbox/entity/shape_groups/wither
+execute if entity @s[type=minecraft:wither_skeleton] run function lh.iris:get_hitbox/entity/shape_groups/wither_skeleton
+execute if entity @s[type=minecraft:wolf] run function lh.iris:get_hitbox/entity/shape_groups/wolf
+execute if entity @s[type=minecraft:armor_stand] run function lh.iris:get_hitbox/entity/shape_groups/armor_stand
+execute if entity @s[type=#lh.iris:shape_groups/magma_cube] run function lh.iris:get_hitbox/entity/shape_groups/magma_cube
+execute if entity @s[type=minecraft:phantom] run function lh.iris:get_hitbox/entity/shape_groups/phantom
+execute if entity @s[type=minecraft:player] run function lh.iris:get_hitbox/entity/shape_groups/player
+execute if entity @s[type=minecraft:pufferfish] run function lh.iris:get_hitbox/entity/shape_groups/pufferfish

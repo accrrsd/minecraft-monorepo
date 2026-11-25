@@ -1,0 +1,14 @@
+{
+  "item.leaving_heart.health_potion": "Зілля Відновлення Сердець",
+  "item.leaving_heart.health_potion.lore1": "Відновлює до 12 HP (6 сердець)",
+  "item.leaving_heart.health_potion.lore2": "Діє в межах ліміту зілля!",
+  "item.leaving_heart.heart_shard": "Уламок Серця",
+  "item.leaving_heart.heart_shard.lore1": "Дарує серця назавжди",
+  "item.leaving_heart.heart_shard.lore2": "Збільшує максимальний ліміт здоров'я!",
+  "advancements.leaving_heart.obtain_potion.title": "Еліксир Життя",
+  "advancements.leaving_heart.obtain_potion.description": "Зваріть Зілля Відновлення Сердець, щоб зцілити втрачені контейнери",
+  "advancements.leaving_heart.obtain_shard.title": "Уламок Серця",
+  "advancements.leaving_heart.obtain_shard.description": "Знайдіть рідкісний кристал життя у стародавніх спорудах",
+  "advancements.leaving_heart.consume_shard.title": "Серце Титана",
+  "advancements.leaving_heart.consume_shard.description": "Зберіть 10 додаткових сердець за допомогою уламків, збільшивши максимум здоров'я до 40 HP (20 сердець)"
+}

@@ -1,0 +1,14 @@
+{
+  "item.leaving_heart.health_potion": "Mikstura Odnowy Serc",
+  "item.leaving_heart.health_potion.lore1": "Odnawia do 12 PZ (6 serc)",
+  "item.leaving_heart.health_potion.lore2": "Działa w granicach limitu mikstur!",
+  "item.leaving_heart.heart_shard": "Odłamek Serca",
+  "item.leaving_heart.heart_shard.lore1": "Trwale przyznaje pojemniki serc",
+  "item.leaving_heart.heart_shard.lore2": "Zwiększa maksymalny poziom zdrowia!",
+  "advancements.leaving_heart.obtain_potion.title": "Eliksir Życia",
+  "advancements.leaving_heart.obtain_potion.description": "Uwarz Miksturę Odnowy Serc, aby uleczyć utracone serca",
+  "advancements.leaving_heart.obtain_shard.title": "Odłamek Serca",
+  "advancements.leaving_heart.obtain_shard.description": "Znajdź rzadki kryształ życia ukryty w starożytnych strukturach",
+  "advancements.leaving_heart.consume_shard.title": "Serce Tytana",
+  "advancements.leaving_heart.consume_shard.description": "Zbierz 10 dodatkowych serc za pomocą odłamków, zwiększając maksymalne zdrowie do 40 PZ (20 serc)"
+}

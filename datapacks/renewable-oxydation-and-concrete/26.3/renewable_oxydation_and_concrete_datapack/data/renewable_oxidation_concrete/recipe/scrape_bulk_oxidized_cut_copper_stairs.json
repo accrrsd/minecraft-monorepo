@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "bbb",
+    "bXb",
+    "bbb"
+  ],
+  "key": {
+    "X": "minecraft:iron_nugget",
+    "b": "minecraft:oxidized_cut_copper_stairs"
+  },
+  "result": {
+    "id": "minecraft:weathered_cut_copper_stairs",
+    "count": 8
+  }
+}

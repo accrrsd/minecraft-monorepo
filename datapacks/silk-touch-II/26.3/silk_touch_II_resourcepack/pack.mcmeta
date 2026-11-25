@@ -1,0 +1,15 @@
+{
+  "pack": {
+    "description": "Silk Touch II — Resource Pack",
+    "pack_format": 97,
+    "min_format": [
+      97,
+      1
+    ],
+    "max_format": [
+      97,
+      1
+    ]
+  },
+  "id": "silk-touch-ii-rp"
+}

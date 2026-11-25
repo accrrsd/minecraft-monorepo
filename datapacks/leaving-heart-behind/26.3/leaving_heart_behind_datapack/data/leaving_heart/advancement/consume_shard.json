@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:apple",
+      "components": {
+        "minecraft:item_model": "leaving_heart:heart_shard",
+        "minecraft:custom_data": {
+          "leaving_heart_item": "shard"
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.leaving_heart.consume_shard.title"
+    },
+    "description": {
+      "translate": "advancements.leaving_heart.consume_shard.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "leaving_heart:obtain_shard",
+  "criteria": {
+    "reach_40_hp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "lh_max_hp": {
+                "min": 40
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "{{category}}",
+  "pattern": [
+    "bbb",
+    "bXb",
+    "bbb"
+  ],
+  "key": {
+    "X": "{{center_item}}",
+    "b": "{{surrounding_item}}"
+  },
+  "result": {
+    "id": "{{result_item}}",
+    "count": {{count}}
+  }
+}

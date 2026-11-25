@@ -1,0 +1,15 @@
+{
+  "pack": {
+    "description": "Leaving Heart Behind — Datapack",
+    "pack_format": 107,
+    "min_format": [
+      101,
+      0
+    ],
+    "max_format": [
+      121,
+      0
+    ]
+  },
+  "id": "leaving-heart"
+}

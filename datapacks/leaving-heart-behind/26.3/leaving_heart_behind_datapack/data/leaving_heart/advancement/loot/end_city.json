@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "loot_tables": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_tables": "#leaving_heart:loot/end_city"
+      }
+    }
+  },
+  "rewards": {
+    "function": "leaving_heart:loot/end_city/main"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:chests/stronghold_corridor",
+    "minecraft:chests/stronghold_crossing",
+    "minecraft:chests/stronghold_library",
+    "minecraft:chests/trial_chambers/reward",
+    "minecraft:chests/trial_chambers/reward_ominous",
+    "minecraft:chests/trial_chambers/reward_ominous_rare",
+    "minecraft:chests/trial_chambers/reward_ominous_unique",
+    "minecraft:chests/trial_chambers/reward_rare",
+    "minecraft:chests/trial_chambers/reward_unique"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "item.leaving_heart.health_potion": "Potion de Restauration de Cœurs",
+  "item.leaving_heart.health_potion.lore1": "Restaure jusqu'à 12 PV (6 cœurs)",
+  "item.leaving_heart.health_potion.lore2": "Efficace dans la limite des potions !",
+  "item.leaving_heart.heart_shard": "Éclat de Cœur",
+  "item.leaving_heart.heart_shard.lore1": "Confère des cœurs de façon permanente",
+  "item.leaving_heart.heart_shard.lore2": "Augmente la réserve maximale de santé !",
+  "advancements.leaving_heart.obtain_potion.title": "Élixir de Vie",
+  "advancements.leaving_heart.obtain_potion.description": "Préparez une Potion de Restauration pour récupérer des conteneurs de santé perdus",
+  "advancements.leaving_heart.obtain_shard.title": "Éclat de Cœur",
+  "advancements.leaving_heart.obtain_shard.description": "Découvrez un cristal de vie rare enfoui dans d'antiques structures",
+  "advancements.leaving_heart.consume_shard.title": "Cœur de Titan",
+  "advancements.leaving_heart.consume_shard.description": "Rassemblez 10 cœurs supplémentaires grâce aux éclats, portant votre santé maximale à 40 PV (20 cœurs)"
+}

@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "misc",
+  "pattern": [
+    "qLq",
+    "QPQ",
+    "QQQ"
+  ],
+  "key": {
+    "P": [
+      {
+        "item": "minecraft:music_disc_11"
+      }
+    ],
+    "L": [
+      {
+        "item": "minecraft:sea_lantern"
+      }
+    ],
+    "Q": [
+      {
+        "item": "minecraft:quartz_block"
+      }
+    ],
+    "q": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "id": "minecraft:music_disc_11",
+    "components": {
+      "minecraft:custom_model_data": 369003,
+      "minecraft:jukebox_playable": {
+        "song": "dd_discs_data:white_void",
+        "show_in_tooltip": true
+      }
+    }
+  }
+}
